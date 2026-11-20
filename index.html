@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111827">
+<title>Support My Protest for a Safe Society</title>
+<style>
+*{box-sizing:border-box} body{margin:0;background:#f3f5f8;color:#17212b;font-family:Arial,Helvetica,sans-serif}
+header{background:#111827;color:white;padding:34px 20px;text-align:center}
+header .tag{display:inline-block;border:1px solid #64748b;border-radius:999px;padding:7px 12px;font-size:12px;letter-spacing:1px}
+header h1{max-width:760px;margin:18px auto 10px;font-size:clamp(30px,6vw,48px);line-height:1.1}
+header p{max-width:650px;margin:0 auto;color:#d1d5db;line-height:1.6}
+main{max-width:760px;margin:28px auto;padding:0 16px 30px}
+.card{background:white;border-radius:18px;padding:26px;margin:16px 0;box-shadow:0 8px 26px rgba(15,23,42,.07)}
+h2{margin-top:0} .donate{display:grid;grid-template-columns: minmax(0,1fr) minmax(180px,230px);gap:22px;align-items:center}
+.qr{width:100%;max-width:230px;display:block;margin:auto;border:10px solid white;border-radius:12px}
+.address{padding:14px;background:#f1f5f9;border-radius:10px;overflow-wrap:anywhere;font:14px/1.6 monospace}
+button,.button{display:inline-block;border:0;border-radius:10px;padding:13px 17px;font-size:15px;font-weight:bold;text-decoration:none;cursor:pointer;margin:8px 8px 4px 0}
+.primary{background:#f7931a;color:#111827} .secondary{background:#e2e8f0;color:#17212b}
+.note{font-size:13px;color:#586575;line-height:1.6}
+footer{text-align:center;color:#64748b;font-size:12px;padding:0 18px 30px}
+@media(max-width:600px){.donate{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+ <span class="tag">COMMUNITY SAFETY · VOLUNTARY BTC SUPPORT</span>
+ <h1>Support My Protest for a Safe Society</h1>
+ <p>Support peaceful efforts and advocacy for a safer society. Contributions are voluntary and made directly to the Bitcoin address shown below.</p>
+</header>
+<main>
+ <section class="card donate">
+  <div>
+   <h2>Donate with Bitcoin</h2>
+   <p>Scan the QR code with a compatible Bitcoin wallet, or copy the address below and paste it into your wallet's Send field.</p>
+   <a class="button primary" href="bitcoin:bc1qt8pq0ksjah8l4ela6lwknhjxt8t4h4hyvvlahu">Open Bitcoin Wallet</a>
+   <button class="secondary" onclick="copyAddress()">Copy Bitcoin Address</button>
+  </div>
+  <img class="qr" alt="Bitcoin donation QR code" src="data:image/png;base64,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">
+ </section>
+ <section class="card">
+  <h2>Bitcoin receiving address</h2>
+  <div class="address" id="btc-address">bc1qt8pq0ksjah8l4ela6lwknhjxt8t4h4hyvvlahu</div>
+  <p id="copy-status" aria-live="polite"></p>
+  <p class="note">Before sending, verify that the address shown in your wallet exactly matches this address. Bitcoin transactions are generally irreversible. Network fees may apply.</p>
+ </section>
+ <section class="card">
+  <h2>Transparency and safety</h2>
+  <p>Donations are voluntary. Please contribute only if you understand the purpose of the campaign and can afford to do so. This page is an informational donation page; it does not process payments, automatically confirm transactions, or establish that this campaign is a registered charity.</p>
+  <p class="note">Never share your wallet recovery phrase, private keys, or passwords. The campaign organizer is responsible for explaining how funds are used.</p>
+ </section>
+</main>
+<footer>Bitcoin (BTC) only · No payment processor is used on this page</footer>
+<script>
+async function copyAddress(){
+ const a=document.getElementById('btc-address').textContent.trim();
+ try{await navigator.clipboard.writeText(a);document.getElementById('copy-status').textContent='Address copied.';}
+ catch(e){document.getElementById('copy-status').textContent='Select and copy the address manually.';}
+}
+</script>
+</body>
+</html>
